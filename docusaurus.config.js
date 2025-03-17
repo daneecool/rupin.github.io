@@ -122,3 +122,7 @@ const config = {
 };
 
 module.exports = config;
+
+export default {
+  url: 'https://daneecool/test.github.io',
+};
