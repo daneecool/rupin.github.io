@@ -112,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built with NEXT.JS`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shop Introduction, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
