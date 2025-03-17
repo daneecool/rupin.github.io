@@ -122,7 +122,3 @@ const config = {
 };
 
 module.exports = config;
-
-export default {
-  url: 'https://docusaurus.io',
-};
