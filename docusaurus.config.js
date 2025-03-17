@@ -9,7 +9,7 @@ const config = {
   title: 'Shop Name',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com', // website url = dns
-  baseUrl: '/test.github.io/',
+  baseUrl: '/docusaurus.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
