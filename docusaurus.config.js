@@ -124,5 +124,5 @@ const config = {
 module.exports = config;
 
 export default {
-  url: 'https://daneecool/test.github.io',
+  url: 'https://docusaurus.io',
 };
