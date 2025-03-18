@@ -74,12 +74,12 @@ const config = {
           src: 'img/logo.svg', // change the logo image here for rupan 
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial', // Furhter update and changes need to be made in markdown files
+          // },
           // {
           //   to: '/blog', 
           //   label: 'App Info', 

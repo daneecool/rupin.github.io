@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Shop Business Hours',
-    imgSrc: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Shop Business Information',
-    imgSrc: require('@site/src/components/Image/150x150_square_52218619.jpg').default,
+    imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
