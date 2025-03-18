@@ -39,6 +39,7 @@ const config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -63,17 +64,17 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
           {
-            to: '/blog', 
-            label: 'App Info', 
-            position: 'left'
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
           },
+          // {
+          //   to: '/blog', 
+          //   label: 'App Info', 
+          //   position: 'left'
+          // },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
