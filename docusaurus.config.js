@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  //organizationName: 'facebook', // Usually your GitHub org/user name.
-  //projectName: 'docusaurus', // Usually your repo name.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -67,24 +67,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      headTags: [
-        {
-          tagName: 'script',
-          attributes: {
-            async: true,
-            src: 'https://www.googletagmanager.com/gtag/js?id=G-X4C3WEWV1Z',
-          },
-        },
-        {
-          tagName: 'script',
-          innerHTML: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-X4C3WEWV1Z');
-          `,
-        },
-      ],
       navbar: {
         title: 'Shop Name',
         logo: {
