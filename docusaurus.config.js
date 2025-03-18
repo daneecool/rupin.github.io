@@ -61,7 +61,7 @@ const config = {
         title: 'Shop Name',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg', // change the logo image here for rupan 
         },
         items: [
           {
