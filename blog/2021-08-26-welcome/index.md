@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [Daniel]
+authors: [daneecool]
 tags: [github, docusaurus]
 ---
 
