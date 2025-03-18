@@ -54,19 +54,37 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'G-X4C3WEWV1Z', // Replace with your Google Analytics tracking ID
-        anonymizeIP: true, // Optional: anonymize the IP addresses of users
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-google-analytics',
+  //     {
+  //       trackingID: 'G-X4C3WEWV1Z', // Replace with your Google Analytics tracking ID
+  //       anonymizeIP: true, // Optional: anonymize the IP addresses of users
+  //     },
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      headTags: [
+        {
+          tagName: 'script',
+          attributes: {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-X4C3WEWV1Z',
+          },
+        },
+        {
+          tagName: 'script',
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-X4C3WEWV1Z');
+          `,
+        },
+      ],
       navbar: {
         title: 'Shop Name',
         logo: {
@@ -133,24 +151,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // headTags: [
-      //   {
-      //     tagName: 'script',
-      //     attributes: {
-      //       async: true,
-      //       src: 'https://www.googletagmanager.com/gtag/js?id=G-X4C3WEWV1Z',
-      //     },
-      //   },
-      //   {
-      //     tagName: 'script',
-      //     innerHTML: `
-      //       window.dataLayer = window.dataLayer || [];
-      //       function gtag(){dataLayer.push(arguments);}
-      //       gtag('js', new Date());
-      //       gtag('config', 'G-X4C3WEWV1Z');
-      //     `,
-      //   },
-      // ],
     }),
 };
 
