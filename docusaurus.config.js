@@ -86,7 +86,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'マップ',　
+            title: 'マップ',
             items: [
               {
                 label: 'カラオケ・喫茶　ルパン',
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'ルパン　電話番号',
-                href: 'tel：080-1111-2222',
+                href: 'tel:080-1111-2222', // Fixed the colon issue in "tel"
               },
             ],
           },
@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: 'セピア　電話番号',
-                href: 'tel：090-2858-6768',
+                href: 'tel:090-2858-6768', // Fixed the colon issue in "tel"
               },
             ],
           },
