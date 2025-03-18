@@ -86,33 +86,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Map',　
+            title: 'マップ',　
             items: [
               {
-                label: 'Shop Name',
+                label: 'カラオケ・喫茶　ルパン',
                 to: 'https://www.google.com/maps?q=〒851-0121 長崎県長崎市宿町２０−３',
               },
             ],
           },
           {
-            title: 'Telephone Number',
+            title: '電話番号',
             items: [
               {
-                label: 'Shop Phone Number',
-                href: 'tel:080-1111-2222',
+                label: 'ルパン　電話番号',
+                href: 'tel：080-1111-2222',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'その他',
             items: [
               {
-                label: 'Another Shop Name',
-                to: 'https://www.google.com/maps?q=8-2 Hamaguchimachi, Nagasaki, 852-8107',
+                label: 'カラオケ・セピア　浜口町店',
+                to: 'https://www.google.com/maps?q=8-2 Hamaguchimachi, Nagasaki, 852-8107, Japan',
               },
               {
-                label: 'Another Shop Phone Number',
-                href: 'tel:080-3333-4444',
+                label: 'セピア　電話番号',
+                href: 'tel：090-2858-6768',
               },
             ],
           },
