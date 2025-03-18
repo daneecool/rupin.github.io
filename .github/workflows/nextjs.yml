@@ -37,6 +37,8 @@ jobs:
           node-version: "20"
       - name: Install dependencies
         run: yarn install
+      - name: Add Google GTag Plugin
+        run: yarn add @docusaurus/plugin-google-gtag
       - name: Build with Docusaurus
         run: yarn build
       - name: Upload artifact
