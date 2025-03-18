@@ -54,6 +54,16 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-X4C3WEWV1Z', // Replace with your Google Analytics tracking ID
+        anonymizeIP: true, // Optional: anonymize the IP addresses of users
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
