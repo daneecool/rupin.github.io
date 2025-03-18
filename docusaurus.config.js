@@ -150,6 +150,13 @@ const config = {
             gtag('config', 'G-X4C3WEWV1Z');
           `,
         },
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'permissions-policy',
+            content: 'interest-cohort=()',
+          },
+        },
       ],
     }),
 };
