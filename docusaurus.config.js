@@ -68,10 +68,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Shop Name',
+        title: '🎵🎼 ルパン 🎤🎶',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg', // change the logo image here for rupan 
+          src: 'src/components/Image/rupin.png', // change the logo image here for rupan 
         },
         items: [
           // {
