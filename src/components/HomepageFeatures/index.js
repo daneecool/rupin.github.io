@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Shop Business Information',
+    title: '営業案内',
     imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Shop Events',
+    title: '店舗イベント情報',
     imgSrc: require('@site/src/components/Image/150x150_square_52218634.jpg').default,
     description: (
       <>
