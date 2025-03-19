@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '  ',
-  tagline: 'Welcome message to the shop',
-  url: 'https://your-docusaurus-test-site.com', // website url = dns
+  title: '<br><br> ルパンへようこそ  ',
+  // tagline: 'Welcome message to the shop',
+  // url: 'https://your-docusaurus-test-site.com', // website url = dns
   baseUrl: '/test.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
