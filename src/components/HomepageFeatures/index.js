@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Shop Business Hours',
+    title: '営業時間',
     imgSrc: require('@site/src/components/Image/150x150_square_52218619.jpg').default,
     description: (
       <>
