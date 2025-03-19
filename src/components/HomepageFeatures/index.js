@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Shop Business Hours',
-    imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
+    imgSrc: require('@site/src/components/Image/150x150_square_52218619.jpg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Shop Events',
-    imgSrc: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    imgSrc: require('@site/src/components/Image/150x150_square_52218634.jpg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
