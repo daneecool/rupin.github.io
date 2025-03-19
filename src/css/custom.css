@@ -30,7 +30,7 @@
 }
 
 .heroBanner {
-  background-image: url('src/components/Image/150x150_square_52218634.jpg'); /* Replace with the actual path to your image */
+  background-image: url('@site/src/components/Image/150x150_square_52218634.jpg'); /* Replace with the actual path to your image */
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
