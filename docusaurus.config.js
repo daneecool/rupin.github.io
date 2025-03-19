@@ -71,7 +71,7 @@ const config = {
         title: '🎵🎼 ルパン 🎤🎶',
         logo: {
           alt: 'My Site Logo',
-          src: '/test.github.io/src/components/Image/rupin.png', // change the logo image here for rupan 
+          src: '/static/img/docusaurus.png', // change the logo image here for rupan 
         },
         items: [
           // {
