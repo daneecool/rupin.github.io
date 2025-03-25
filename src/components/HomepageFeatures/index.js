@@ -8,8 +8,8 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218619.jpg').default,
     description: (
       <>
-        月火水木金：午後1時　～　午後５時
-        　　　　　　午後7時　～　午後11時　（予約）
+        月火水木金：午後1時　～　午後５時<br></br>
+        　　　　　　午後7時　～　午後11時　（予約）<br></br>
         土日・祝日：午前10時　～　午後５時　（予約・レッスン）
       </>
     ),
@@ -19,8 +19,8 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
     description: (
       <>
-        カラオケ歌い放題（1,200円）
-        コーヒー・お茶・ソフトドリンク　⁂1杯付き
+        カラオケ歌い放題（1,200円）<br></br>
+        コーヒー・お茶・ソフトドリンク　⁂1杯付き<br></br>
         おつまみ・お菓子付き
       </>
     ),
@@ -30,7 +30,7 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218634.jpg').default,
     description: (
       <>
-        カラオケ大会・歌手イベントなど
+        カラオケ大会・歌手イベントなど<br></br>
         📌　イベント情報は店に表示します。
       </>
     ),
