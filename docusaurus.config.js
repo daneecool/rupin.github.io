@@ -130,7 +130,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Shop Introduction, Inc. Built with Docusaurus.`,
       },
       prism: {
-        //theme: lightCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
       headTags: [
@@ -158,6 +158,11 @@ const config = {
           },
         },
       ],
+      colorMode: {
+        defaultMode: 'dark', // Set dark mode as the default
+        disableSwitch: false, // Allow users to switch between light and dark modes
+        respectPrefersColorScheme: false, // Ignore the user's system preference
+      },
     }),
 };
 
