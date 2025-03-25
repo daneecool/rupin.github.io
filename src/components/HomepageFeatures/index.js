@@ -8,8 +8,9 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218619.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        月火水木金：午後1時　～　午後５時
+        　　　　　　午後7時　～　午後11時　（予約）
+        土日・祝日：午前10時　～　午後５時　（予約・レッスン）
       </>
     ),
   },
@@ -18,8 +19,9 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218628.jpg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        カラオケ歌い放題（1,200円）
+        コーヒー・お茶・ソフトドリンク　⁂1杯付き
+        おつまみ・お菓子付き
       </>
     ),
   },
@@ -28,8 +30,8 @@ const FeatureList = [
     imgSrc: require('@site/src/components/Image/150x150_square_52218634.jpg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        カラオケ大会・歌手イベントなど
+        📌　イベント情報は店に表示します。
       </>
     ),
   },
