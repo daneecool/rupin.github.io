@@ -99,19 +99,6 @@ const config = {
               },
             ],
           },
-          {
-            title: 'その他',
-            items: [
-              {
-                label: 'カラオケ・セピア　浜口町店',
-                to: 'https://www.google.com/maps?q=8-2 Hamaguchimachi, Nagasaki, 852-8107, Japan',
-              },
-              {
-                label: 'セピア　電話番号',
-                href: 'tel:090-2858-6768', // Fixed the colon issue in "tel"
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Skipper, Inc. Built with Docusaurus.`,
       },
